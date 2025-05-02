@@ -117,6 +117,56 @@
         .hero-paragraph.short {
             width: 60%;
         }
+        
+        .features {
+            padding: 80px 0;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            width: 80%;
+            margin: 0 auto;
+            justify-items: center;
+        }
+        
+        .feature {
+            width: 169px;
+            height: 169px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .feature-blue {
+            background-color: #a8e2e8;
+        }
+        
+        .feature-coral {
+            background-color: #f8a998;
+        }
+        
+        .feature-yellow {
+            background-color: #ffe0a4;
+        }
+        
+        .feature-icon {
+            width: 30%;
+            height: 30%;
+        }
+        
+        .feature-blue .feature-icon {
+            background-color: #7dd0d8;
+        }
+        
+        .feature-coral .feature-icon {
+            background-color: #f87e63;
+        }
+        
+        .feature-yellow .feature-icon {
+            background-color: #ffd78a;
+        }
     </style>
 </head>
 <body>
@@ -151,22 +201,22 @@
     
     <section class="features">
         <div class="feature-grid">
-            <div class="feature">
+            <div class="feature feature-blue">
                 <div class="feature-icon"></div>
             </div>
-            <div class="feature">
+            <div class="feature feature-coral">
                 <div class="feature-icon"></div>
             </div>
-            <div class="feature">
+            <div class="feature feature-yellow">
                 <div class="feature-icon"></div>
             </div>
-            <div class="feature">
+            <div class="feature feature-yellow">
                 <div class="feature-icon"></div>
             </div>
-            <div class="feature">
+            <div class="feature feature-blue">
                 <div class="feature-icon"></div>
             </div>
-            <div class="feature">
+            <div class="feature feature-coral">
                 <div class="feature-icon"></div>
             </div>
         </div>
